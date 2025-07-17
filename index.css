@@ -1,0 +1,52 @@
+.doto {
+  font-family: "Doto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: doto, sans-serif;
+    background: #1F2937;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif;
+    color: white;
+}
+
+.score-button {
+    font-family: doto, sans-serif;
+    color: white;
+    background: #1F2937;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.scorebox {
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+#home-score {
+    background: black;
+    border-radius: 5px;
+    margin: 20px auto 20px auto;
+    font-family: doto, sans-serif;
+    font-size: 100px;
+    color: #F94F6D;
+    text-align: center;
+}
+
+#guest-score {
+    background: black;
+    border-radius: 5px;
+    margin: 20px auto 20px auto;
+    font-family: doto, sans-serif;
+    font-size: 100px;
+    color: #F94F6D;
+    text-align: center;
+}
